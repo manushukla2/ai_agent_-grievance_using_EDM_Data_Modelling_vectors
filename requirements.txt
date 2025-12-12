@@ -1,0 +1,15 @@
+streamlit
+chromadb
+sentence-transformers
+pypdf
+python-docx
+openpyxl
+pandas
+torch
+transformers
+accelerate
+
+huggingface-hub
+
+# After installing, run: python scripts/download_models.py
+# This will download and cache the SLM/LLM models into ./models

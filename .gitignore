@@ -1,0 +1,32 @@
+# Models (too large for GitHub, download separately)
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# Vector DB (regenerated on load)
+chroma_db/
+chroma_empirical_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
