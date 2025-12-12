@@ -1,8 +1,11 @@
-# Models (too large for GitHub, download separately)
+# Models (large weight files, download separately)
 models/
 *.bin
 *.safetensors
 *.gguf
+
+# But keep model configs (small files for reference)
+!models_config/
 
 # Vector DB (regenerated on load)
 chroma_db/
