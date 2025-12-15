@@ -1,10 +1,10 @@
-# RAG System with Empirical Data Modelling
+# RAG System with Entity Data Modelling
 
 A document Q&A system that goes beyond simple text matching. It extracts **entities** (people, dates, IDs) and **facts** (relationships between entities) from your documents, then uses this structured knowledge to give more accurate answers.
 
 ---
 
-## What is Empirical Data Modelling (EDM)?
+## What is Entity Data Modelling (EDM)?
 
 Traditional RAG systems just split documents into chunks and search by text similarity. This often misses precise information.
 
